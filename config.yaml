@@ -1,0 +1,23 @@
+path: /home/jamiemilsom/Documents/bioinformatics/cell_data # This must be an absolute path
+train: images/train
+val: images/train
+
+# Classes
+names:
+  0: cell
+
+# Data Augmentation
+augment: True     # Enable augmentation
+hsv_h: 0.015      # Hue (color) augmentation
+hsv_s: 0.7        # Saturation augmentation
+hsv_v: 0.4        # Value (brightness) augmentation
+degrees: 0.0      # Rotation augmentation
+translate: 0.1    # Translation augmentation
+scale: 0.5        # Scaling augmentation
+shear: 0.0        # Shear augmentation
+perspective: 0.0  # Perspective augmentation
+flipud: 0.0       # Flip up-down augmentation
+fliplr: 0.5       # Flip left-right augmentation
+mosaic: 1.0       # Mosaic augmentation
+mixup: 0.0        # MixUp augmentation
+copy_paste: 0.0   # Copy-paste augmentation
