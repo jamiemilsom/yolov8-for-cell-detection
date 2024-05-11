@@ -18,6 +18,8 @@ This project focuses on the development of a cell detection model using YOLOv8, 
     *   `cell_data/images/test/`: Contains test images (used for evaluation only).
     *   `cell_data/labels/train/`: Contains YOLO format annotations for training images.
     *   `config.yaml`: Defines dataset paths, class names, and augmentation settings.
+    
+<img src="readme_images/cvat_example.png" alt="CVAT annotation interface">
 
 ## Usage:
 
@@ -32,6 +34,8 @@ This project focuses on the development of a cell detection model using YOLOv8, 
     *   The script will display the images with predicted bounding boxes and confidence scores.
     *   Press 'q' to move to the next image.
     *   Feel free to add your own images to images/test to evaluate model performance.
+
+<img src="readme_images/unseen_data_example.png" alt="YOLO Inference Output">
 
 
 ## Customisation:

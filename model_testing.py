@@ -1,8 +1,8 @@
-from ultralytics import YOLO#
+from ultralytics import YOLO
 import cv2
 import os
 
-model = YOLO('/home/jamiemilsom/Documents/bioinformatics/runs/detect/train4/weights/best.pt')
+model = YOLO('runs/detect/train4/weights/best.pt')
 
 images = ['cell_data/images/test/' + image for image in os.listdir('cell_data/images/test')]
 results = model(images)
